@@ -1,0 +1,47 @@
+body {
+    background-color: 85C8FF;
+    height: 100%;
+}
+
+p{
+    font-family: arial;
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+#navbar > li {
+    font-family: arial;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 1em;
+    border-color: black;
+    border: outset;
+    border-width: 1px;
+    padding: 0.2em;
+    background-color: 85C8FF;
+}
+
+#navbar {
+    position: fixed;
+    display: inline-block;
+    background-color: 85C8EB ;
+    border-radius: 50px
+}
+
+h1 {
+    font-family: arial;
+    font-size: 3em;
+    margin: 2em 1em 1em 1.5em;
+}
+
+#photo {
+    display: block;
+    border-color: black;
+    border-style: double;
+    width: 500px;
+}
+
+#photo > img {
+    display: block;
+    margin: 1em auto 1em auto;
+}
