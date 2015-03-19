@@ -9,23 +9,27 @@ p{
     margin: 1em;
 }
 
-#navbar > li {
+.navbar > li {
     font-family: arial;
     font-size: 1.2em;
     display: inline-block;
-    margin: 1em;
-    border-color: black;
-    border: outset;
+    margin: 1em 1em 1em 1em;
+    border-color: red;
     border-width: 1px;
+    border: outset;
     padding: 0.2em;
     background-color: 85C8FF;
 }
 
-#navbar {
+#selected {
+    border: inset;
+}
+
+.navbar {
     position: fixed;
     display: inline-block;
     background-color: 85C8EB ;
-    border-radius: 50px
+    border-radius: 50px;
 }
 
 h1 {
@@ -39,6 +43,7 @@ h1 {
     border-color: black;
     border-style: double;
     width: 500px;
+    margin-left: 1em;
 }
 
 #photo > img {
