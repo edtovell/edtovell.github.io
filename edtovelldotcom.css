@@ -48,12 +48,20 @@ h1 {
     margin: 2em 1em 1em 1.5em;
 }
 
+a {
+    color: black;
+}
+
 #photo {
     display: block;
     border-color: black;
     border-style: double;
     width: 700px;
     margin-left: 1em;
+}
+
+#comic {
+    margin-left: 3em;
 }
 
 #photo > img {
