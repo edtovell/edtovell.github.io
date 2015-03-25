@@ -6,7 +6,22 @@ body {
 p{
     font-family: arial;
     font-size: 1.2em;
-    margin: 1em;
+    margin: 1em 20%;
+    text-align: center;
+}
+
+.wrapper {
+    display: block;
+    position: fixed;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+}
+
+.navbar {
+    display: inline-block;
+    background-color: 85C8EB ;
+    border-radius: 50px;
 }
 
 .navbar > li {
@@ -35,14 +50,9 @@ p{
     border: inset;
 }
 
-.navbar {
-    position: fixed;
-    display: inline-block;
-    background-color: 85C8EB ;
-    border-radius: 50px;
-}
 
 h1 {
+    text-align: center;
     font-family: arial;
     font-size: 3em;
     margin: 2em 1em 1em 1.5em;
@@ -53,18 +63,23 @@ a {
 }
 
 #photo {
-    display: block;
+    margin: 1em auto 1em auto;
     border-color: black;
     border-style: double;
     width: 700px;
-    margin-left: 1em;
 }
 
 #comic {
-    margin-left: 3em;
+    display: block;
+    margin: 1em auto 1em auto;
 }
 
 #photo > img {
     display: block;
-    margin: 1em auto 1em auto;
+    margin: 1em auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
 }
