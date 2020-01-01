@@ -13,9 +13,9 @@ p{
 .wrapper {
     display: block;
     position: fixed;
-    width: 700px;
+    width: 800px;
     left: 50%;
-    margin-left: -350px;
+    margin-left: -400px;
 }
 
 .navbar {
