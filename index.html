@@ -1,31 +1,132 @@
 <html>
 <head>
-<meta content="text/html; charset=ISO-8859-1"
-http-equiv="content-type">
-<link type="text/css" rel="stylesheet" href="edtovelldotcom.css" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<title>ed tovell dot com</title>
+    <meta content="text/html; charset=ISO-8859-1"
+    http-equiv="content-type">
+    <link type="text/css" rel="stylesheet" href="edtovelldotcom.css" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <script src="script.js"></script>
+    <title>ed tovell dot com</title>
 </head>
+
 <body>
-    <div class="wrapper">
-    <ul class="navbar">
-        <li id="selected"><a>Hoam</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="linguistics.html">Linguistics</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="writing-art.html">Writing/Art</a></li>
-        <li style="margin-right: 2.5em;"><a href="mailto:info@edtovell.com">Contact</a></li>
-    </ul>
+    <div class="navbarWrapper">
+        <ul class="navbar">
+            <li id=""><a href="#top">top</a></li>
+            <li id=""><a href="/blog">blog</a></li>
+            <li id=""><a href="#work">work</a></li>
+            <li id=""><a href="#wood">wooden things</a></li>
+            <li id=""><a href="#games">games</a></li>
+            <li id=""><a href="#contact">contact</a></li>
+        </ul>
     </div>
     <br>
+
+    <img src="ed.png" style="float: right; height:480px; width:360px; border-radius: 10px;"/>
+    <div style="width: 120px; height: 200px; float:left;"></div>
+
     <h1>ed tovell dot com</h1>
-    <p>This is a picture of Ed Tovell :</p>
-    <div id="photo"><img src="DSC_0737.JPG" alt="Hello there"></div>
-    <p>Ed Tovell is a friendly adult male human person who lives in London. There are many interesting things that you can learn about Ed Tovell; this is because, like most people, he is a bubbling hive of ideas and experiences. A bubbling hive.
-    </p>
-    <p>You can find out some of these things on this website that Ed Tovell made about himself.
-    </p>
-    
+    <br/>
+
+    <div class="funFactBox">
+        <div>
+            <p style="font-size: 1.4em;"><strong>fun fact</strong></p>
+            <p style="margin: 2px;">Ed Tovell</p>
+            <p id="funFact">looks like in that picture there</p>
+        </div>
+        <button id=funFactButton onclick="updateFunFact()" onload="updateFunFact()">another</button>
+    </div>
+
+    <div class="blurb content">
+        <p>Ed Tovell is a friendly adult male human person who lives in London. There are many interesting things that you can learn about Ed Tovell; this is because, like most people, he is a cacophonous maelstrom of thoughts and feelings and great works.
+        </p>
+        <p>You can find out some of these things on this website that Ed Tovell made about himself.
+        </p>
+    </div>
+    <br/>
+
+    <div class="work content">
+        <h2 id="work">work</h2>
+        <p>Ed Tovell is a <strong>software engineer</strong> with a decade of experience in <strong>python web services</strong>. He likes gadgets and games and doing good. Please do reach out via email if you would like to offer him a job.</p>
+    </div>
+    <br/>
+
+    <div class="wood content">
+        <h2 id="wood">wooden things</h2>
+        <p>Ed makes wooden things and you can see them on his Instagram account called <a href="https://www.instagram.com/ed_makes_wooden_things/">ed_makes_wooden_things</a></p>
+        <table>
+            <tr>
+                <td>
+                    <img src="wooden_thing_1.jpg"/>
+                </td>
+                <td>
+                    <img src="wooden_thing_2.jpg"/>
+                </td>
+                <td>
+                    <img src="wooden_thing_3.jpg"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="games content">
+        <h2 id="games">games</h2>
+        <p>Ed likes making games. You can play these in your computer browser:</p>
+        <div style="margin-left: 150px;">
+            <table>
+                <tr>
+                    <td>
+                        <h3>GO HERO PATRIOT SOLDIER HERO FORCE</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>a shameless propaganda game</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="boris.png"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://wigglesmctodd.itch.io/patriot">play</a>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <h3>Quarantine!</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>a game from 2020</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://edtovell.com/blog/images/quarantine/p0.jpg"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/quarantine">play</a>
+                        <a href="/blog/quarantine.html">blog</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="contact content">
+        <h2 id="contact">contact</h2>
+        <p>ed tovell at gmail dot com </p>
+        <p>no spaces all lowercase</p>
+    </div>
+
+    <img src="peekaboo.png" style="float: right"/>
 </body>
 </html>

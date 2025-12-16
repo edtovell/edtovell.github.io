@@ -1,39 +1,42 @@
 body {
-    background-color: 85C8FF;
+    /*Cloud Dancer: Pantone Color Of The Year 2026*/
+    background-color: #F0EEE9; 
     height: 100%;
 }
 
-p{
+p {
     font-family: arial;
     font-size: 1.2em;
-    margin: 1em 20%;
     text-align: center;
 }
 
-.wrapper {
+.content > p {
+    margin: 1em 20%;
+}
+
+.navbarWrapper {
     display: block;
     position: fixed;
-    width: 800px;
-    left: 50%;
-    margin-left: -400px;
+    width: 18px;
 }
 
 .navbar {
     display: inline-block;
-    background-color: 85C8EB ;
-    border-radius: 50px;
+    background-color: #D2D2D2;
+    border-radius: 10px;
+    padding: 2px;
 }
 
 .navbar > li {
     font-family: arial;
     font-size: 1.2em;
     display: inline-block;
-    margin: 1em 1em 1em 1em;
-    border-color: red;
+    margin: 0.3em;
     border-width: 1px;
     border: outset;
     padding: 0px;
-    background-color: 85C8FF;
+    background-color: #F0EEE9;
+    width: 100px;
 }
 
 .navbar > li > a {
@@ -50,36 +53,73 @@ p{
     border: inset;
 }
 
+.funFactBox {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 33%;
+}
+
+.funFactBox > div {
+    min-height: 120px;
+}
+
+#funFact {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0px 20px;
+}
+
+.wood img {
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.games table {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.games img {
+    width: 520px;
+}
+
+.games a {
+    font-weight: 600;
+}
 
 h1 {
     text-align: center;
     font-family: arial;
     font-size: 3em;
-    margin: 2em 1em 1em 1.5em;
+    margin: 2em 1em;
+}
+
+h2 {
+    margin-left: 20%;
+    text-align: left;
+    font-family: arial;
+    font-size: 2.5em;
+}
+
+h3 {
+    text-align: left;
+    font-family: arial;
+    font-size: 1.5em;
 }
 
 a {
     color: black;
+    font-family: arial;
 }
 
-#photo {
-    margin: 1em auto 1em auto;
-    border-color: black;
-    border-style: double;
-    width: 700px;
-}
-
-#comic {
-    display: block;
-    margin: 1em auto 1em auto;
-}
-
-#photo > img {
-    display: block;
-    margin: 1em auto;
-}
-
-iframe {
-    display: block;
-    margin: auto;
+button {
+    margin: 5px 70%;
+    font-size: 1em;
 }
