@@ -29,7 +29,7 @@ function updateFunFact() {
 const fun_facts = [
     "once had a ring-tailed lemur sit on his head at the zoo",
     "has three cats, but (important!) likes dogs too",
-    "went to the Glastonbury music festival once and didn't like it",
+    "went to Glastonbury once and didn't like it",
     "is quite good at the missing vowels round on Only Connect",
     "has an uncanny savant-like knowledge of the James Bond movies",
     "once had his ankle nipped lightly by Sheridan Smith's dog",
@@ -66,4 +66,7 @@ const fun_facts = [
     "once changed a hot tap without turning off the water first",
     "can solve a Rubik's cube, sometimes",
     "had a short-lived podcast about movies, like about 40% of people at the time",
+    "probably has a novel or two in him if he can get it together",
+    "once saw a woman cradling and feeding a pigeon like a baby",
+    "got the best GCSEs in his year at school; then it's been downhill ever since",
 ]
